@@ -1,0 +1,25 @@
+.input-flex {
+    gap: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+    border-radius: 0.5rem;
+    padding: 0rem 0.5rem;
+    z-index: 1;
+    /* border: 2px solid red; */
+  }
+
+  .input-flex input {
+    width: 100%;
+    border: 0;
+    padding: 0.5rem;
+    /* border: 1px solid red; */
+  }
+
+  .input-flex input:focus {
+    outline: none;
+    /* outline-color: #000ff0; */
+  }
+
